@@ -40,10 +40,21 @@ footer {
     margin-top: 3rem;
 }
 
-.member, .event {
-    margin-bottom: 2rem;
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
 }
 
+.member .event {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 30%;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
 #map1, #map2 {
     width: 100%;
     height: 400px;
