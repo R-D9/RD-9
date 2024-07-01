@@ -1,5 +1,24 @@
 function initMap() {
     // 天白キャンパスの位置
+    var locations = [
+        {lat: 35.134969, lng: 136.969415, title: '天白カフェ'},
+        {lat: 35.135969, lng: 136.969415, title: 'ラーメン天白'},
+        {lat: 35.136969, lng: 136.969415, title: '天白寿司'}
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 14,
+        center: {lat: 35.134969, lng: 136.969415}
+    });
+
+    locations.forEach(function(location) {
+        var marker = new google.maps.Marker({
+            position: {lat: location.lat, lng: location.lng},
+            map: map,
+            title: location.title
+        });
+    });
+    
     var tenpaku = { lat: 35.1420, lng: 136.9674 };
     var map1 = new google.maps.Map(document.getElementById('map1'), {
         zoom: 15,
