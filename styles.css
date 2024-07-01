@@ -68,6 +68,11 @@ footer {
     text-align: center; /* 中央揃え */
 }
 
+.responsive-iframe {
+    width: 100%;
+    height: 400px;
+}
+
 @media (min-width: 600px) {
     .members {
         flex-direction: row; /* PCでは横並びに設定 */
