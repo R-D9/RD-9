@@ -18,13 +18,15 @@ nav ul {
 }
 .first-view {
     height: calc(100vh - 110px);
-    background-image: url(fhoto/main.jpg);
+    background-image: url(photo/main.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     display: flex;
     align-items: center;
 }
+
+
 
 nav ul li {
     display: inline;
