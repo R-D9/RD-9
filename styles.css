@@ -3,11 +3,6 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-image: url('background.jpg'); /* 背景画像を追加 */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
 }
 
 header {
@@ -15,7 +10,6 @@ header {
     color: #fff;
     padding: 1rem 0;
     text-align: center;
-    background-color: rgba(51, 51, 51, 0.8); /* 透明度を追加 */
 }
 
 nav ul {
@@ -36,9 +30,6 @@ nav ul li a {
 main {
     padding: 1rem;
     padding-bottom: 3rem;
-    background-color: rgba(255, 255, 255, 0.8); /* 透明度を追加 */
-    border-radius: 10px; /* 角を丸くする */
-    margin: 10px; /* セクション周りのスペース */
 }
 
 footer {
@@ -47,7 +38,6 @@ footer {
     text-align: center;
     padding: 1rem 0;
     margin-top: 3rem;
-    background-color: rgba(51, 51, 51, 0.8); /* 透明度を追加 */
 }
 
 .map {
