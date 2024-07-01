@@ -56,27 +56,30 @@ footer {
     text-align: center; /* 中央揃えにする場合 */
 }
 
+/* マップのスタイル */
 .map {
     margin-top: 20px;
 }
 
-/* スマートフォンではフル幅、PCでは固定サイズ */
+/* マップのレスポンシブ対応 */
 .responsive-iframe {
     width: 100%;
-    height: 400px;
+    height: 400px; /* スマートフォン用の高さ */
 }
 
 @media (min-width: 600px) {
     .responsive-iframe {
-        width: 600px;
-        height: 450px;
+        width: 600px; /* PC用の幅 */
+        height: 450px; /* PC用の高さ */
     }
+
     .members {
-        flex-direction: column;
+        flex-direction: row; /* 横並びに変更 */
         align-items: center;
     }
+
     .member {
-        width: 80%;
-        margin-bottom: 20px;
+        width: 30%; /* PC用の幅 */
+        margin-bottom: 0; /* マージンを削除 */
     }
 }
