@@ -53,6 +53,8 @@ footer {
 
 img {
     margin: 20px 0;
+    max-width: 100%; /* 追加 */
+    height: auto; /* 追加 */
 }
 
 .members {
@@ -87,4 +89,3 @@ img {
         width: 30%; /* PC用の幅 */
     }
 }
-
