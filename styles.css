@@ -3,6 +3,12 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
 }
 
 header {
@@ -10,15 +16,13 @@ header {
     color: #fff;
     padding: 1rem 0;
     text-align: center;
+    width: 100%;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
 }
-
-
-
 
 nav ul li {
     display: inline;
@@ -33,6 +37,9 @@ nav ul li a {
 main {
     padding: 1rem;
     padding-bottom: 3rem;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
 }
 
 footer {
@@ -40,7 +47,12 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
+    width: 100%;
     margin-top: 3rem;
+}
+
+img {
+    margin: 20px 0;
 }
 
 .members {
@@ -75,3 +87,4 @@ footer {
         width: 30%; /* PC用の幅 */
     }
 }
+
